@@ -1,5 +1,10 @@
 import numpy as np
+n = 1000
+wartosci = []
+for i in range(n):
+    temp = 0
+    for j in range(12):
+        temp = temp + np.random.rand()
+        wartosci.append(temp - 6)
 
-A = np.array([[0,1,3],[3,4,5],[2,6,3]])
-print(A)
-print(np.sum(A, axis = 1))
+print(wartosci)

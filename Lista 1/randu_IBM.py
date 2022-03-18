@@ -4,6 +4,8 @@ import matplotlib as mpl
 mpl.rcParams['text.usetex'] = True
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
+#random.rand rozklad U(0.1)
+#random.normal
 
 nmax = 10**6
 pmax = 5 * 10**3
